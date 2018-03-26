@@ -1,5 +1,6 @@
 var i = 0;
 
-while (i < 10000) {
+while (i < 1000) {
 	i++;
+	console.log(i);
 }
