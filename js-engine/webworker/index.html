@@ -7,7 +7,7 @@
 <body>
     <script>
         var worker = new Worker("worker.js");
-        worker.postMessage("123456");
+        worker.postMessage(123456);
 
         worker.onmessage = function (e) {
             console.log(e.data)
