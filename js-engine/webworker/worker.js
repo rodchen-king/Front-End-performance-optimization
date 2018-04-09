@@ -3,7 +3,7 @@ onmessage = function (count) {
 
     var i = 0;
 
-    while(i < count) {
+    while(i < count.data) {
     	i ++;
     }
 
